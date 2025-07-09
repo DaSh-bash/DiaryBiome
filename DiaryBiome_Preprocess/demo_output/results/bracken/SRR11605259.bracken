@@ -1,0 +1,41 @@
+name	taxonomy_id	taxonomy_lvl	kraken_assigned_reads	added_reads	new_est_reads	fraction_total_reads
+Streptococcus thermophilus	1308	S	6492206	320563	6812769	0.98277
+Streptococcus salivarius	1304	S	5957	605	6562	0.00095
+Streptococcus vestibularis	1343	S	1097	89	1186	0.00017
+Streptococcus parasuis	1501662	S	356	11	367	0.00005
+Streptococcus suis	1307	S	240	21	261	0.00004
+Streptococcus mitis	28037	S	189	23	212	0.00003
+Streptococcus sanguinis	1305	S	147	7	154	0.00002
+Streptococcus dysgalactiae	1334	S	114	61	175	0.00003
+Streptococcus macedonicus	59310	S	115	89	204	0.00003
+Streptococcus oriscaviae	2781599	S	111	0	111	0.00002
+Streptococcus gwangjuense	1433513	S	108	15	123	0.00002
+Streptococcus pluranimalium	82348	S	85	0	85	0.00001
+Streptococcus pasteurianus	197614	S	76	57	133	0.00002
+Streptococcus sp. FDAARGOS_192	1839799	S	9	6	15	0.00000
+Streptococcus oralis	1303	S	24	6	30	0.00000
+Streptococcus pneumoniae	1313	S	23	140	163	0.00002
+Streptococcus pyogenes	1314	S	18	20	38	0.00001
+Streptococcus gordonii	1302	S	16	0	16	0.00000
+Streptococcus equinus	1335	S	14	13	27	0.00000
+Streptococcus cristatus	45634	S	14	0	14	0.00000
+Streptococcus agalactiae	1311	S	13	17	30	0.00000
+Streptococcus sobrinus	1310	S	13	0	13	0.00000
+Streptococcus ratti	1341	S	13	0	13	0.00000
+Streptococcus parasanguinis	1318	S	10	1	11	0.00000
+Streptococcus parauberis	1348	S	8	0	8	0.00000
+Streptococcus iniae	1346	S	8	0	8	0.00000
+Lactococcus lactis	1358	S	242	366	608	0.00009
+Lactococcus cremoris	1359	S	14	50	64	0.00001
+Lactobacillus delbrueckii	1584	S	103890	4321	108211	0.01561
+Lactobacillus helveticus	1587	S	9	18	27	0.00000
+Latilactobacillus sakei	1599	S	49	3	52	0.00001
+Leuconostoc lactis	1246	S	20	1	21	0.00000
+Anoxybacillus flavithermus	33934	S	150	7	157	0.00002
+Staphylococcus sp. 11-B-312	2799680	S	11	16	27	0.00000
+Clostridium botulinum	1491	S	72	2	74	0.00001
+Mycobacterium canettii	78331	S	11	1	12	0.00000
+Xanthomonas euvesicatoria	456327	S	8	11	19	0.00000
+Helicobacter pylori	210	S	24	2	26	0.00000
+Blattabacterium cuenoti	1653831	S	13	1	14	0.00000
+Homo sapiens	9606	S	144	0	144	0.00002

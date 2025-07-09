@@ -1,0 +1,126 @@
+configfile: "config.yml"
+
+SAMPLES = [line.strip() for line in open("data/samples.txt")]
+
+rule all:
+    input:
+        expand("results/kneaddata/{sample}_kneaddata_paired_1.fastq", sample=SAMPLES),
+        expand("results/kneaddata/{sample}_kneaddata_paired_2.fastq", sample=SAMPLES),
+        expand("results/kraken2/{sample}.kraken2_report.txt", sample=SAMPLES),
+        expand("results/kraken2/{sample}.kraken2", sample=SAMPLES),
+        expand("results/bracken/{sample}.bracken", sample=SAMPLES),
+        expand("results/bracken/{sample}.breport", sample=SAMPLES),
+        "results/multiqc_report/multiqc_report.html",
+        "results/combined_abundance_table.tsv"
+
+rule download_fastq:
+    output:
+        "data/{sample}_1.fastq",
+        "data/{sample}_2.fastq"
+    params:
+        sample="{sample}"
+    shell:
+        """
+        fasterq-dump {params.sample} -O data/ --split-files
+        """
+     
+rule kneaddata:
+    input:
+        r1="data/{sample}_1.fastq",
+        r2="data/{sample}_2.fastq"
+    output:
+        r1="results/kneaddata/{sample}_kneaddata_paired_1.fastq",
+        r2="results/kneaddata/{sample}_kneaddata_paired_2.fastq"
+    params:
+        db=config["kneaddata_db"],
+        trimmomatic_options="SLIDINGWINDOW:4:20 MINLEN:50"
+    shell:
+        """
+        mkdir -p results/kneaddata
+        kneaddata -i1 {input.r1} -i2 {input.r2} \
+            -db {params.db} \
+            -o results/kneaddata \
+            --output-prefix {wildcards.sample}_kneaddata \
+            --trimmomatic-options "{params.trimmomatic_options}" \
+            --bypass-trf \
+            --bowtie2-options="--very-fast" \
+            --run-fastqc-start \
+            --run-fastqc-end \
+            --threads 8
+        """
+
+rule kraken2:
+    input:
+        r1 = "results/kneaddata/{sample}_kneaddata_paired_1.fastq",
+        r2 = "results/kneaddata/{sample}_kneaddata_paired_2.fastq"
+    output:
+        report = "results/kraken2/{sample}.kraken2_report.txt",
+        classified = "results/kraken2/{sample}.kraken2"
+    params:
+        db = config["kraken2_db"]
+    threads: 8
+    shell:
+        """
+        mkdir -p results/kraken2
+        kraken2 \
+          --db {params.db} \
+          --threads {threads} \
+          --report {output.report} \
+          --paired {input.r1} {input.r2} \
+          > {output.classified}
+        """
+
+rule bracken:
+    input:
+        report = "results/kraken2/{sample}.kraken2_report.txt"
+    output:
+        bracken = "results/bracken/{sample}.bracken",
+        breport = "results/bracken/{sample}.breport"
+    params:
+        db = config["bracken_db"]
+    threads: 10
+    shell:
+        """
+        mkdir -p results/bracken
+        bracken \
+          -d {params.db} \
+          -i {input.report} \
+          -r 100 \
+          -l S \
+          -t {threads} \
+          -o {output.bracken} \
+          -w {output.breport}
+        """
+
+rule multiqc:
+    input:
+        pre_trim_r1 = expand("results/kneaddata/fastqc/{sample}_1_fastqc.zip", sample=SAMPLES),
+        pre_trim_r2 = expand("results/kneaddata/fastqc/{sample}_2_fastqc.zip", sample=SAMPLES),
+        post_trim_r1 = expand("results/kneaddata/fastqc/{sample}_kneaddata_paired_1_fastqc.zip", sample=SAMPLES),
+        post_trim_r2 = expand("results/kneaddata/fastqc/{sample}_kneaddata_paired_2_fastqc.zip", sample=SAMPLES),
+        kraken = expand("results/kraken2/{sample}.kraken2_report.txt", sample=SAMPLES),
+        bracken = expand("results/bracken/{sample}.bracken", sample=SAMPLES)
+    output:
+        report = "results/multiqc_report/multiqc_report.html"
+    shell:
+        """
+        mkdir -p results/multiqc_report
+        multiqc {input} -o results/multiqc_report
+        """
+
+rule bracken_to_abundance_table:
+    input:
+        bracken_files=expand("results/bracken/{sample}.bracken", sample=SAMPLES)
+    output:
+        "results/combined_abundance_table.tsv"
+    run:
+        import pandas as pd
+        dfs = []
+        for f in input.bracken_files:
+            sample = f.split("/")[-1].replace(".bracken", "")
+            df = pd.read_csv(f, sep="\t")
+            df = df[['name', 'taxonomy_id', 'new_est_reads']]
+            df.columns = ['taxon', 'taxon_id', sample]
+            dfs.append(df.set_index(['taxon', 'taxon_id']))
+        table = pd.concat(dfs, axis=1).fillna(0).astype(int)
+        table.reset_index().to_csv(output[0], sep="\t", index=False)

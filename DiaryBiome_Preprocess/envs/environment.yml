@@ -1,0 +1,14 @@
+name: metagenome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake
+  - sra-tools
+  - fastqc
+  - multiqc
+  - kneaddata
+  - trimmomatic
+  - kraken2
+  - krakentools

@@ -1,0 +1,627 @@
+taxon	taxon_id	SRR11605259	SRR11605260	SRR11605261	SRR11605262	SRR11605263	SRR11605264	SRR11605265	SRR11605266	SRR11605267	SRR11605268	SRR11605269	SRR11605270	SRR11605271	SRR11605272	SRR11605273	SRR11605274
+Streptococcus thermophilus	1308	6812769	6789948	6141986	3815	2164	8908957	5583813	7152482	4505957	4933828	3958083	336	2849912	6466780	7108053	5981751
+Streptococcus salivarius	1304	6562	5610	2862	0	0	11572	13989	8054	6434	3268	2548	0	2259	7763	4022	3310
+Streptococcus vestibularis	1343	1186	1294	1106	0	0	2013	1427	2150	1085	1305	778	0	798	1342	1078	978
+Streptococcus parasuis	1501662	367	686	75	0	0	803	337	495	442	192	74	0	8	558	22	15
+Streptococcus suis	1307	261	280	60	0	0	914	445	48	349	69	18	0	128	360	59	77
+Streptococcus mitis	28037	212	184	178	0	0	338	128	31	232	97	213	0	62	245	282	217
+Streptococcus sanguinis	1305	154	72	8	0	0	531	233	13	227	10	0	0	0	145	0	0
+Streptococcus dysgalactiae	1334	175	388	0	0	0	420	409	36	394	46	37	0	34	189	36	16
+Streptococcus macedonicus	59310	204	744	0	0	0	364	93	715	197	44	0	0	0	903	67	121
+Streptococcus oriscaviae	2781599	111	106	126	0	0	220	119	189	115	102	41	0	29	117	121	121
+Streptococcus gwangjuense	1433513	123	57	0	0	0	419	96	0	195	0	0	0	0	114	0	0
+Streptococcus pluranimalium	82348	85	0	133	0	0	32	11	21	20	101	0	0	0	0	24	0
+Streptococcus pasteurianus	197614	133	101	0	99	0	1050	429	0	384	0	0	0	0	1336	0	0
+Streptococcus sp. FDAARGOS_192	1839799	15	19	0	0	0	110	35	43	60	65	0	0	462	15	26	24
+Streptococcus oralis	1303	30	19	14	0	0	116	65	27	80	27	14	0	21	39	31	16
+Streptococcus pneumoniae	1313	163	172	23	0	0	377	44	40	317	280	35	0	182	75	89	21
+Streptococcus pyogenes	1314	38	5141	172	0	0	72	94	33	84	56	21	0	0	293	33	59
+Streptococcus gordonii	1302	16	18	10	0	0	50	16	17	20	29	0	0	62	19	71	134
+Streptococcus equinus	1335	27	14	8	263	0	71	47	126	30	48	0	0	143	16	17	29
+Streptococcus cristatus	45634	14	0	0	0	0	0	0	0	9	0	0	0	0	100	0	0
+Streptococcus agalactiae	1311	30	1091	40	0	0	97	38	48	72	110	220	0	0	1851	41	41
+Streptococcus sobrinus	1310	13	18	13	0	0	29	30	12	27	21	10	0	0	12	15	8
+Streptococcus ratti	1341	13	9	14	0	0	31	11	0	18	12	10	0	0	15	13	12
+Streptococcus parasanguinis	1318	11	0	16	0	0	36	20	16	34	24	0	0	10	8	15	0
+Streptococcus parauberis	1348	8	197	0	0	0	19	9	0	22	0	64	0	0	0	0	0
+Streptococcus iniae	1346	8	0	0	0	0	11	17	0	20	0	0	0	0	0	0	0
+Lactococcus lactis	1358	608	790	327	20	0	5770	8231	39699	6208	31492	172897	15	589	480	697	722
+Lactococcus cremoris	1359	64	145	37	0	0	436	242	972	301	888	2403	0	489	56	129	229
+Lactobacillus delbrueckii	1584	108211	733319	24034	42	100	2161	12636	7114	3403	2723	73260	12	281907	355450	1310	27829
+Lactobacillus helveticus	1587	27	65	0	0	1916186	14	25	152	0	23	112	212	93	0	0	0
+Latilactobacillus sakei	1599	52	25	0	0	0	166	77	11	73	0	0	203	0	72	0	0
+Leuconostoc lactis	1246	21	107	41	0	120	0	0	356	0	144	105	85	0	0	0	0
+Anoxybacillus flavithermus	33934	157	0	33	0	678	99	0	27	0	0	76	0	78	39	0	0
+Staphylococcus sp. 11-B-312	2799680	27	0	0	0	0	0	0	33	27	27	0	0	0	0	0	0
+Clostridium botulinum	1491	74	301	93	47	125	1411	685	967	1081	692	36624	0	422	0	0	0
+Mycobacterium canettii	78331	12	22	10	3368	21	191	187	54	58	201	72	0	305	11	113	101
+Xanthomonas euvesicatoria	456327	19	50	0	400395	0	362	411	509	231	550	494	0	173	0	158	221
+Helicobacter pylori	210	26	0	0	0	0	0	0	0	0	0	0	30	0	0	0	0
+Blattabacterium cuenoti	1653831	14	52	31	0	0	32	31	163	13	57	85	0	22	18	10	11
+Homo sapiens	9606	144	132	19	27453	10	663	0	675	602	346	3436	26	63	182	172	172
+Streptococcus anginosus	1328	0	388	11	0	0	11	0	0	0	0	0	0	0	0	0	0
+Streptococcus urinalis	149016	0	124	0	0	0	0	0	0	8	0	0	0	0	0	0	0
+Streptococcus alactolyticus	29389	0	35	0	0	0	29	26	22	20	18	0	0	0	0	17	20
+Lactococcus formosensis	1281486	0	49	0	0	0	0	0	261	0	50	0	0	0	0	0	0
+Lactiplantibacillus pentosus	1589	0	16	0	0	354	0	0	481	37	0	0	159	0	0	0	73
+Secundilactobacillus paracollinoides	240427	0	10	0	0	53	0	0	0	0	0	0	687	0	0	0	0
+Enterococcus cecorum	44008	0	64	0	0	0	0	0	12	0	31	0	0	0	1492	0	0
+Heyndrickxia coagulans	1398	0	16	0	573707	0	0	0	0	0	0	0	0	0	0	0	0
+Bifidobacterium breve	1685	0	34	0	170	1159	32	36	299	131	176	1379	424	2902066	0	0	34
+Streptomyces sp. T12	477697	0	10	0	0	0	0	0	214	0	0	0	0	0	0	0	22
+Vibrio crassostreae	246167	0	13	0	0	0	0	0	60	0	15	0	0	0	0	0	0
+Vibrio furnissii	29494	0	10	0	0	0	14	0	0	9	0	756	0	0	0	0	0
+Streptococcus ilei	1156431	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0
+Streptococcus mutans	1309	0	0	8	0	0	23	31	0	29	11	0	0	0	17	0	0
+Streptococcus infantis	68892	0	0	8	0	0	9	8	9	40	13	0	0	0	10	0	9
+Lactobacillus acidophilus	1579	0	0	21373	22	0	0	46	755	43	598	78	893727	143770	0	0	0
+Enterococcus faecalis	1351	0	0	115	930	0	40	36	791	948	379	29	15	0	0	0	0
+Simiaoa sunii	2763672	0	0	102	0	0	0	0	0	0	0	0	0	10	0	0	0
+Blautia wexlerae	418240	0	0	55	0	20	0	0	18	0	43	0	0	0	0	40	43
+[Ruminococcus] torques	33039	0	0	24	0	0	0	0	0	0	0	0	0	0	0	52	0
+Mediterraneibacter gnavus	33038	0	0	11	14	0	0	0	0	0	0	0	0	0	0	60	0
+Lachnospira eligens	39485	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0
+Enterocloster bolteae	208479	0	0	17	0	0	0	0	0	0	0	0	0	0	0	13	0
+Dorea longicatena	88431	0	0	14	0	18	0	0	29	0	0	0	0	10	0	11	27
+Faecalibacterium prausnitzii	853	0	0	62	0	0	0	0	79	0	0	32	0	43	0	23	80
+Thomasclavelia ramosa	1547	0	0	10	0	0	0	0	0	0	0	0	0	0	0	41	0
+Bifidobacterium animalis	28025	0	0	12939	0	74	0	0	151	0	0	282248	535710	490235	0	0	0
+Escherichia coli	562	0	0	980	37809	0	120	311	2925	531	570	0	0	0	275	224	306
+Bacteroides cellulosilyticus	246787	0	0	110	0	0	0	0	28	0	0	0	0	0	16	0	29
+Bacteroides salyersiae	291644	0	0	71	0	0	0	0	54	0	0	0	0	0	0	0	49
+Bacteroides thetaiotaomicron	818	0	0	53	0	0	0	0	33	0	30	0	0	0	0	49	33
+Bacteroides xylanisolvens	371601	0	0	107	0	0	0	0	337	0	0	68	0	0	0	70	387
+Bacteroides uniformis	820	0	0	78	0	0	0	0	844	0	38	231	0	31	132	106	699
+Bacteroides fragilis	817	0	0	24	0	0	0	0	30	0	57	19	0	0	0	67	27
+Phocaeicola vulgatus	821	0	0	171	0	0	0	0	708	0	91	39	0	53	23	806	683
+Parabacteroides goldsteinii	328812	0	0	51	0	0	0	0	0	0	0	0	0	0	0	0	0
+Parabacteroides merdae	46503	0	0	12	0	0	0	0	32	0	13	44	0	0	0	95	28
+Parabacteroides distasonis	823	0	0	16	0	0	0	0	38	0	0	36	0	0	0	0	37
+Alistipes onderdonkii	328813	0	0	37	0	0	0	0	54	0	32	10	0	0	0	24	46
+Fusobacterium mortiferum	850	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0
+Respirovirus laryngotracheitidis	3049952	0	0	8	0	0	0	22	0	10	0	0	0	0	0	0	0
+Weizmannia sp. WK01	2984845	0	0	0	267254	0	0	0	0	0	0	0	0	0	0	0	0
+Heyndrickxia oleronia	38875	0	0	0	68	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillus cereus	1396	0	0	0	57842	0	169	0	0	0	0	0	0	0	0	0	0
+Bacillus wiedmannii	1890302	0	0	0	7527	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillus mycoides	1405	0	0	0	1882	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillus thuringiensis	1428	0	0	0	226	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillus sp. FJAT-22090	1581038	0	0	0	20	0	0	0	0	0	0	0	0	0	0	0	0
+Bacillus velezensis	492670	0	0	0	69	0	31	0	0	0	0	0	0	0	0	0	107
+Parageobacillus thermoglucosidasius	1426	0	0	0	4715	0	15	0	0	0	0	0	0	0	0	0	0
+Parageobacillus toebii	153151	0	0	0	152	0	0	0	0	0	0	0	0	0	0	0	0
+Parageobacillus sp. KH3-4	2916802	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0	0
+Parageobacillus caldoxylosilyticus	81408	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0
+Geobacillus subterraneus	129338	0	0	0	58	18	0	0	0	0	0	0	0	0	0	0	0
+Geobacillus sp. E263	391290	0	0	0	113	0	0	0	0	0	0	0	0	0	0	0	0
+Geobacillus stearothermophilus	1422	0	0	0	34	2167	0	0	39	0	0	89	0	373	0	0	0
+Shouchella clausii	79880	0	0	0	28	0	0	0	0	0	0	0	0	0	0	0	0
+Sutcliffiella cohnii	33932	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Sutcliffiella horikoshii	79883	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Neobacillus sp. OS1-33	3070683	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Fervidibacillus albus	2980026	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Cytobacillus dafuensis	1742359	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Metabacillus sp. cB07	2806989	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Mesobacillus jeotgali	129985	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Gottfriedia acidiceleris	371036	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Niallia sp. Man26	2912824	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Priestia filamentosa	1402861	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Staphylococcus gallinarum	1293	0	0	0	3562	0	0	0	0	0	0	0	0	0	0	0	0
+Staphylococcus equorum	246432	0	0	0	96	0	0	0	0	0	0	0	0	0	0	0	0
+Staphylococcus saprophyticus	29385	0	0	0	31	0	0	0	32	28	34	261	40	0	0	0	0
+Staphylococcus aureus	1280	0	0	0	152	0	50	0	126	54	0	85	0	0	0	0	0
+Staphylococcus pseudintermedius	283734	0	0	0	24	0	0	0	0	0	15	0	0	0	0	0	0
+Staphylococcus xylosus	1288	0	0	0	17	0	0	0	12	0	0	0	0	0	0	0	0
+Staphylococcus nepalensis	214473	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0
+Staphylococcus pseudoxylosus	2282419	0	0	0	15	0	0	0	21	0	0	0	0	0	0	0	0
+Staphylococcus epidermidis	1282	0	0	0	26	0	0	0	74	0	25	0	0	0	0	0	0
+Mammaliicoccus sciuri	1296	0	0	0	3728	0	0	0	0	0	9	0	0	0	0	0	0
+Mammaliicoccus lentus	42858	0	0	0	43	0	0	0	0	0	0	0	0	0	0	0	0
+Macrococcus caseolyticus	69966	0	0	0	81	0	0	0	0	0	0	0	0	0	0	0	0
+Kurthia sp. 11kri321	1750719	0	0	0	547	0	0	0	0	0	0	0	0	0	0	0	0
+Kurthia sp. YJT4	3049086	0	0	0	463	0	0	0	0	0	0	0	0	0	0	0	0
+Planococcus versutus	1302659	0	0	0	32	0	0	0	0	0	0	0	0	0	0	0	0
+Planococcus halotolerans	2233542	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus dendritiformis	130049	0	0	0	67	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus macerans	44252	0	0	0	46	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus amylolyticus	1451	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus swuensis	1178515	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus andongensis	2975482	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Paenibacillus alvei	44250	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Brevibacillus choshinensis	54911	0	0	0	64	0	0	0	0	0	0	0	0	0	0	0	0
+Listeria monocytogenes	1639	0	0	0	18	0	0	0	34	31	0	64	0	0	0	0	0
+Listeria ivanovii	1638	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Streptococcus ruminicola	2686210	0	0	0	832	0	13	11	50	0	64	0	0	0	1651	0	0
+Streptococcus infantarius	102684	0	0	0	214	0	17	296	639	25	288	0	0	0	951	10	15
+Streptococcus gallolyticus	315405	0	0	0	169	0	19	21	88	0	28	0	0	0	187	0	0
+Streptococcus lutetiensis	150055	0	0	0	83	0	12	25	62	0	15	0	0	0	0	315	217
+Tetragenococcus osmophilus	526944	0	0	0	2644	0	0	0	0	0	0	0	0	0	0	0	0
+Tetragenococcus halophilus	51669	0	0	0	178	0	0	0	0	0	0	0	0	0	0	0	0
+Enterococcus faecium	1352	0	0	0	345	0	68	44	33	91	25	101	19	1013	0	40	97
+Limosilactobacillus fermentum	1613	0	0	0	1696	432	0	0	0	0	0	21	53	0	34	0	0
+Limosilactobacillus reuteri	1598	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Ligilactobacillus agilis	1601	0	0	0	223	0	0	0	0	0	0	0	0	0	0	0	0
+Ligilactobacillus salivarius	1624	0	0	0	22	261	0	0	8	0	0	0	0	0	0	0	0
+Ligilactobacillus ruminis	1623	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Lactobacillus sp. PV037	2594496	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Lacticaseibacillus paracasei	1597	0	0	0	87	280	151	0	1548	47	2061	270	3776006	961	0	0	0
+Lacticaseibacillus rhamnosus	47715	0	0	0	27	324	0	0	447	14	549	70	968310	0	0	0	0
+Lactiplantibacillus plantarum	1590	0	0	0	56	3084107	0	0	871	34	915	128	1342347	922	0	0	13
+Liquorilactobacillus mali	1618	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Lentilactobacillus buchneri	1581	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium isatidis	182773	0	0	0	88	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium sporogenes	1509	0	0	0	67	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium sp. CF011	2843318	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium sp. DL-VIII	641107	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium estertheticum	238834	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium cadaveris	1529	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium pasteurianum	1501	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium baratii	1561	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Clostridium taeniosporum	394958	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Oceanirhabdus sp. W0125-5	2999116	0	0	0	100	0	0	0	0	0	0	0	0	0	0	0	0
+Hathewaya histolytica	1498	0	0	0	28	0	0	0	0	0	0	0	0	0	0	0	0
+Paraclostridium bifermentans	1490	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0
+Hungatella hathewayi	154046	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Chakrabartyella piscis	2918914	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0
+Butyrivibrio crossotus	45851	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+[Clostridium] colinum	36835	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Candidatus Syntrophocurvum alkaliphilum	2293317	0	0	0	25	0	0	0	0	0	0	0	0	0	0	0	0
+Desulfitobacterium dichloroeliminans	233055	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Natranaerobius thermophilus	375929	0	0	0	40	0	0	0	0	0	0	0	0	0	0	0	0
+Mahella australiensis	252966	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0
+Acetohalobium arabaticum	28187	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Longicatena caecimuris	1796635	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0
+Turicibacter bilis	2735723	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Turicibacter sanguinis	154288	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Sedimentibacter sp. zth1	2816908	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Actinomyces oris	544580	0	0	0	53202	0	13	0	0	0	0	0	0	0	0	10	11
+Actinomyces qiguomingii	2057800	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Mycobacterium sp. Z3061	3073562	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Mycobacterium heidelbergense	53376	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium stationis	1705	0	0	0	1140	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium glyciniphilum	1404244	0	0	0	56	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium casei	160386	0	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium deserti	1408191	0	0	0	35	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium falsenii	108486	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium variabile	1727	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium flavescens	28028	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Corynebacterium glutamicum	1718	0	0	0	36	0	0	0	0	0	0	0	0	0	0	0	0
+Dietzia sp. oral taxon 368	712270	0	0	0	287	0	0	0	0	0	0	0	0	0	0	0	0
+Dietzia sp. B32	2915130	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Dietzia lutea	546160	0	0	0	199	0	0	0	0	0	0	0	0	0	0	0	0
+Dietzia kunjamensis	322509	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0
+Dietzia psychralcaliphila	139021	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Rhodococcus qingshengii	334542	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0
+Rhodococcus sp. WAY2	2663121	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudarthrobacter sp. NS4	2973976	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Rothia terrae	396015	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Renibacterium salmoninarum	1646	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Brevibacterium luteolum	199591	0	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0
+Brevibacterium siliguriense	1136497	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Microbacterium azadirachtae	582680	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Streptomyces sp. MA3_2.13	2867410	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Streptomyces sp. SAT1	1849967	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Streptomyces graminofaciens	68212	0	0	0	38	0	0	0	0	0	0	0	0	0	0	0	0
+Umezawaea sp. Da 62-37	3075927	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0
+Actinosynnema pretiosum	42197	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Amycolatopsis sp. DG1A-15b	3052846	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Micromonospora sp. NBRC 110009	3061627	0	0	0	56	0	0	0	0	0	0	0	0	0	0	0	0
+Pimelobacter simplex	2045	0	0	0	9	0	0	0	19	0	0	0	0	0	0	0	0
+Cutibacterium acnes	1747	0	0	0	25	13	79	18	494	34	125	232	0	0	0	0	0
+Prochlorococcus sp. MIT 1307	3096219	0	0	0	41	0	0	0	0	0	0	0	0	0	0	0	0
+Synechococcus sp. NOUM97013	1442555	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Cyanobacterium sp. uoEpiScrs1	2976343	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Planktothrix agardhii	1160	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Stanieria cyanosphaera	102116	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Mycoplasma phocoenae	754517	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	0
+Mycoplasma sp. SG1	2810348	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Mariniplasma anaerobium	2735436	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Mycoplasmopsis maculosa	114885	0	0	0	26	0	0	0	0	0	0	0	0	0	0	0	0
+Mesomycoplasma dispar	86660	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Shigella flexneri	623	0	0	0	154	0	0	0	0	0	0	0	0	0	0	0	0
+Enterobacter sp. T2	2707174	0	0	0	97	0	0	0	0	0	0	0	0	0	0	0	0
+Enterobacter sp. RHBSTW-00994	2742676	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Citrobacter freundii	546	0	0	0	32	0	0	0	0	0	0	0	0	0	0	0	0
+Citrobacter amalonaticus	35703	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Klebsiella pneumoniae	573	0	0	0	93	0	182	0	258	343	0	0	0	0	0	0	0
+Buchnera aphidicola	9	0	0	0	418	0	0	0	0	0	0	0	0	0	0	0	0
+Erwinia billingiae	182337	0	0	0	25	0	0	0	0	0	0	0	0	0	0	0	0
+Pantoea agglomerans	549	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Providencia heimbachae	333962	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Stenotrophomonas sp. 610A2	3055080	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Stenotrophomonas maltophilia	40324	0	0	0	29	0	0	0	118	0	0	0	0	0	0	0	0
+Vibrio anguillarum	55601	0	0	0	306	0	0	0	0	0	0	0	0	0	0	0	0
+Vibrio sp. T9	2007196	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Vibrio pelagius	28169	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Photobacterium profundum	74109	0	0	0	25	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas tolaasii	29442	0	0	0	190	0	26	0	0	0	0	0	0	0	0	0	14
+Pseudomonas sp. CIP-10	2892442	0	0	0	54	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas sp. BT-42-2	2986927	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas sp. Eqa60	2799184	0	0	0	20	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas sp. FP1742	2954079	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas laurentiana	2364649	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Acinetobacter sp. TGL-Y2	1407071	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Acinetobacter sp. KCTC 92772	3045147	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Acinetobacter sp. AHP123	2913495	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0	0
+Acinetobacter piscicola	2006115	0	0	0	28	0	0	0	0	0	0	0	0	0	0	0	0
+Acinetobacter towneri	202956	0	0	0	57	0	0	0	0	0	0	0	0	0	0	0	0
+Shewanella psychropiezotolerans	2593655	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0	0
+Ferrimonas balearica	44012	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudidiomarina andamanensis	1940690	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Gilliamella apis	1970738	0	0	0	89	0	0	0	0	0	0	0	0	0	0	0	0
+Francisella philomiragia	28110	0	0	0	62	0	0	0	0	0	0	0	0	0	0	0	0
+Thiomicrorhabdus sediminis	2580412	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Halomonas sp. MS1	507763	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Kushneria phosphatilytica	657387	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Endozoicomonas montiporae	1027273	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Kangiella sediminilitoris	1144748	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0
+Microbulbifer thermotolerans	252514	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Aeromonas veronii	654	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Legionella sp. PC997	2755562	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Candidatus Vesicomyosocius okutanii	412965	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Burkholderia multivorans	87883	0	0	0	18614	0	0	0	0	0	0	0	0	0	0	0	0
+Polynucleobacter sp. MWH-Svant-W18	1855909	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0	0
+Pseudoduganella flava	871742	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Undibacterium sp. CCC3.4	3048609	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Achromobacter deleyi	1353891	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Achromobacter denitrificans	32002	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Methylotenera mobilis	359408	0	0	0	77	0	0	0	0	0	0	0	0	0	0	0	0
+Crenobacter cavernae	2290923	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Mesorhizobium sp. J8	2777475	0	0	0	78	0	0	0	0	0	0	0	0	0	0	0	0
+Mesorhizobium sp. B1-1-8	2589976	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Agrobacterium sp. MA01	2664893	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Agrobacterium tumefaciens	358	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Bradyrhizobium sp. CB82	3039159	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Bartonella sp. HY038	2759660	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Sulfitobacter sp. SK011	1389004	0	0	0	72	0	0	0	0	0	0	0	0	0	0	0	0
+Paracoccus alcaliphilus	34002	0	0	0	10	0	0	0	92	41	0	0	0	0	0	0	0
+Candidatus Bandiella numerosa	2570586	0	0	0	50	0	0	0	0	0	0	0	0	0	0	0	0
+Ehrlichia canis	944	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0
+Candidatus Nucleicultrix amoebiphila	1509244	0	0	0	54	0	0	0	0	0	0	0	0	0	0	0	0
+Sphingomonas sp. CL5.1	2653203	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Erythrobacter neustonensis	1112	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Brevundimonas vitisensis	2800818	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Hyphomonas sp.	225298	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0
+Polaribacter pectinis	2738844	0	0	0	117	0	0	0	0	0	0	0	0	0	0	0	0
+Flavobacterium eburneipallidum	3003263	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Flavobacterium dauae	1563479	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Flavobacterium psychrophilum	96345	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0
+Aureibaculum algae	2584122	0	0	0	103	0	0	0	0	0	0	0	0	0	0	0	0
+Muricauda sp. SCSIO 64092	2908842	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Formosa sediminum	2594004	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Kaistella flava (ex Peng et al. 2021)	2038776	0	0	0	66	0	0	0	0	0	0	0	0	0	0	0	0
+Kaistella carnis	1241979	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Kaistella antarctica	266748	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Chryseobacterium sp. MEBOG06	2879938	0	0	0	38	0	0	0	0	0	0	0	0	0	0	0	0
+Chryseobacterium sp. StRB126	878220	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Chryseobacterium camelliae	1265445	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0
+Elizabethkingia meningoseptica	238	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0
+Hymenobacter aerilatus	2932251	0	0	0	45	0	0	0	0	0	0	0	0	0	0	0	0
+Hymenobacter cellulosilyticus	2932248	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Dyadobacter fermentans	94254	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0	0
+Catalinimonas niigatensis	1397264	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Bacteroides sp.	162156	0	0	0	44	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Acetobacteroides sp.	1760811	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0
+Prevotella melaninogenica	28132	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Draconibacterium sp.	1573823	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Sunxiuqinia sp.	1573825	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0
+Arcobacter sp. L	944547	0	0	0	205	0	0	0	0	0	0	0	0	0	0	0	0
+Malaciobacter marinus	505249	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0
+Campylobacter sputorum	206	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Lacipirellula parvula	2650471	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0
+Rosistilla ulvae	1930277	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0
+Gimesia aquarii	2527964	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0
+Candidatus Uabimicrobium amorphum	2596890	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0
+Chlamydia psittaci	83554	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0
+Maridesulfovibrio hydrothermalis	191026	0	0	0	42	0	0	0	0	0	0	0	0	0	0	0	0
+uncultured Desulfobulbus sp.	239745	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0
+Leadbettera azotonutricia	150829	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0	0
+Sorangium cellulosum	56	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0
+Fervidobacterium pennivorans	93466	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0
+Metallosphaera cuprina	1006005	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	0
+Thermoplasma volcanium	50339	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0
+Rosenblumvirus CSA13	2732597	0	0	0	8	0	10	0	0	0	0	0	0	0	0	0	0
+Avian coronavirus	694014	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Lactiplantibacillus paraplantarum	60520	0	0	0	0	750	0	0	0	0	0	0	155	0	0	0	0
+Lactiplantibacillus carotarum	2993456	0	0	0	0	490	0	0	0	0	0	0	231	0	0	0	0
+Lactiplantibacillus argentoratensis	271881	0	0	0	0	137	0	0	0	0	0	0	117	0	0	0	0
+Lactobacillus crispatus	47770	0	0	0	0	771	0	0	0	0	0	0	65	14	0	0	0
+Lactobacillus amylovorus	1604	0	0	0	0	579	0	37	30	0	16	0	134	35	0	0	0
+Lactobacillus ultunensis	227945	0	0	0	0	141	0	0	0	0	0	0	0	0	0	0	0
+Limosilactobacillus gastricus	227942	0	0	0	0	211	0	0	0	0	0	0	0	0	0	0	0
+Pediococcus acidilactici	1254	0	0	0	0	208	0	0	0	0	0	0	0	0	0	0	0
+Companilactobacillus pabuli	2714036	0	0	0	0	94	0	0	0	0	0	0	0	0	0	0	0
+Latilactobacillus curvatus	28038	0	0	0	0	75	0	0	0	0	0	0	0	0	0	0	0
+Loigolactobacillus backii	375175	0	0	0	0	48	0	0	0	0	0	0	0	0	0	0	0
+Lentilactobacillus hilgardii	1588	0	0	0	0	40	0	0	0	0	0	0	0	0	0	0	0
+Levilactobacillus brevis	1580	0	0	0	0	16	13	13	0	26	0	0	1923	0	0	0	0
+Rossellomorea marisflavi	189381	0	0	0	0	9	0	0	0	13	0	0	0	0	0	0	0
+Agathobacter rectalis	39491	0	0	0	0	31	0	62	26	0	0	156	0	85	0	0	40
+Anaerobutyricum hallii	39488	0	0	0	0	11	0	0	41	0	0	0	0	16	0	0	40
+Anaerostipes hadrus	649756	0	0	0	0	9	0	0	39	0	10	0	0	0	0	27	31
+Faecalibacillus intestinalis	1982626	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0
+Bifidobacterium longum	216816	0	0	0	0	2442945	0	0	359	0	448	64	115	76737	34	67	53
+Bifidobacterium scardovii	158787	0	0	0	0	18	0	0	0	0	0	0	0	197	0	0	0
+Bifidobacterium adolescentis	1680	0	0	0	0	22	0	0	27	0	0	0	0	186	0	0	0
+Bifidobacterium lemurum	1603886	0	0	0	0	15	0	0	0	0	0	0	0	17	0	0	0
+Bifidobacterium saguini	762210	0	0	0	0	16	0	0	0	0	0	0	0	12	0	0	0
+Bifidobacterium pseudolongum	1694	0	0	0	0	12	0	0	0	0	0	10	36	75	0	0	0
+Bifidobacterium pullorum	78448	0	0	0	0	11	0	0	0	0	0	0	0	13	0	0	0
+Bifidobacterium angulatum	1683	0	0	0	0	10	0	0	0	0	0	0	0	1355	0	0	0
+Bifidobacterium bifidum	1681	0	0	0	0	19	0	0	0	0	0	0	0	7553	0	0	0
+Bifidobacterium imperatoris	2020965	0	0	0	0	10	0	0	0	0	0	0	0	152	0	0	0
+Bifidobacterium catenulatum	1686	0	0	0	0	13	0	0	0	0	0	0	0	1504	0	0	0
+Paenarthrobacter sp. Y-19	3031125	0	0	0	0	82	0	0	0	0	0	0	0	0	0	0	0
+Paenarthrobacter sp. YJN-D	2735317	0	0	0	0	48	0	0	0	0	0	0	0	0	0	0	0
+Thermus thermophilus	274	0	0	0	0	184	0	0	0	0	0	616	0	206	0	0	0
+Thermus parvatiensis	456163	0	0	0	0	63	0	0	0	0	0	244	0	80	0	0	0
+Pseudomonas veronii	76761	0	0	0	0	1536	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas sp. LH1G9	2083055	0	0	0	0	593	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas sp. Y39-6	2749807	0	0	0	0	100	0	0	0	0	0	0	0	0	0	0	0
+Pseudomonas lundensis	86185	0	0	0	0	20	0	13	0	0	0	92	0	0	0	0	0
+Pseudomonas extremaustralis	359110	0	0	0	0	20	0	0	0	0	0	0	0	0	0	0	0
+Janthinobacterium tructae	2590869	0	0	0	0	323	0	0	0	0	0	0	0	0	0	0	0
+Polaribacter sp. AHE13PA	2745562	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0
+Streptococcus equi	1336	0	0	0	0	0	235	27	16	173	15	0	0	0	0	0	0
+Streptococcus sp. DTU_2020_1000888_1_SI_GRL_NUU_041A	3077723	0	0	0	0	0	26	0	119	0	0	0	0	298	0	0	0
+Streptococcus sp. 116-D4	2598453	0	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0
+Streptococcus sp. 29887	3028084	0	0	0	0	0	11	0	0	17	0	0	0	0	0	0	0
+Streptococcus sp. FDAARGOS_522	2420310	0	0	0	0	0	163	0	0	0	0	0	0	0	0	0	0
+Streptococcus sp. oral taxon 061	712623	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0
+Streptococcus sp. oral taxon 431	712633	0	0	0	0	0	9	0	12	0	0	0	0	0	0	0	11
+Streptococcus constellatus	76860	0	0	0	0	0	995	0	11	0	526	0	0	0	0	0	0
+Streptococcus intermedius	1338	0	0	0	0	0	9	0	0	9	0	0	0	0	0	0	0
+Streptococcus canis	1329	0	0	0	0	0	13	0	0	10	0	0	0	0	0	0	0
+Streptococcus uberis	1349	0	0	0	0	0	16	0	10	0	11	65	0	0	0	0	0
+Streptococcus pantholopis	1811193	0	0	0	0	0	11	0	0	9	0	0	0	8	0	0	0
+Streptococcus respiraculi	2021971	0	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0
+Streptococcus pseudoporcinus	361101	0	0	0	0	0	10	0	0	8	0	0	0	0	0	49	43
+Streptococcus porcinus	1340	0	0	0	0	0	9	0	0	12	0	0	0	0	0	0	0
+Streptococcus halotolerans	1814128	0	0	0	0	0	9	10	0	12	0	0	0	0	0	0	0
+Streptococcus australis	113107	0	0	0	0	0	9	0	0	0	16	0	0	0	0	0	9
+Lactococcus raffinolactis	1366	0	0	0	0	0	27	34	107	15	38	73	0	19	0	0	0
+Lactococcus sp. NH2-7C	2879149	0	0	0	0	0	22	24	123	11	58	475	0	0	0	0	0
+Vagococcus xieshaowenii	2562451	0	0	0	0	0	22	13	0	12	0	0	0	0	0	0	0
+Bacillus subtilis	1423	0	0	0	0	0	35	0	0	0	0	0	0	0	0	0	0
+Clostridium tagluense	360422	0	0	0	0	0	10	11	0	0	0	0	0	0	0	0	0
+Propionibacterium freudenreichii	1744	0	0	0	0	0	89	0	88	0	8	0	0	0	0	0	0
+Raoultella ornithinolytica	54291	0	0	0	0	0	333	0	0	0	0	0	0	0	0	0	0
+Enterobacter hormaechei	158836	0	0	0	0	0	301	202	16739	2595	2238	0	0	0	0	0	0
+Salmonella enterica	28901	0	0	0	0	0	382	0	1319	0	1197	0	0	0	0	0	0
+Kluyvera cryocrescens	580	0	0	0	0	0	37	0	0	0	0	0	0	0	0	0	0
+Proteus mirabilis	584	0	0	0	0	0	20	0	0	0	0	0	0	0	0	0	0
+Acinetobacter lwoffii	28090	0	0	0	0	0	349	0	78	0	128	0	0	0	0	0	0
+Acinetobacter johnsonii	40214	0	0	0	0	0	260	0	139	64	278	47	0	0	0	0	0
+Acinetobacter baumannii	470	0	0	0	0	0	81	0	85	0	0	0	0	0	0	0	0
+Aeromonas media	651	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0
+Variovorax paradoxus	34073	0	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0
+Dictyoglomus turgidum	513050	0	0	0	0	0	12	16	0	0	0	0	0	0	0	0	0
+Slopekvirus pht4A	2956467	0	0	0	0	0	273	0	0	0	0	0	0	0	0	0	0
+Slopekvirus eap3	1985336	0	0	0	0	0	57	0	0	0	0	0	0	0	0	0	0
+Streptococcus chenjunshii	2173853	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0
+Lactococcus garvieae	1363	0	0	0	0	0	0	72	11	0	0	639	0	0	0	0	0
+Lactococcus sp. LG606	2816912	0	0	0	0	0	0	43	217	43	231	66	0	0	0	0	0
+Enterococcus lactis	357441	0	0	0	0	0	0	31	0	0	0	0	0	0	0	0	0
+Bacillus paranthracis	2026186	0	0	0	0	0	0	582	0	0	0	0	0	0	0	0	0
+Xanthomonas campestris	339	0	0	0	0	0	0	13	10	0	0	9	0	0	0	0	0
+Pseudomonas fragi	296	0	0	0	0	0	0	56	20	0	0	519	0	0	0	0	0
+Pseudomonas brenneri	129817	0	0	0	0	0	0	21	0	0	0	52	0	0	0	0	0
+Moraxella osloensis	34062	0	0	0	0	0	0	10	19	0	0	0	0	0	0	0	0
+Paracoccus aestuarii	453842	0	0	0	0	0	0	27	1341	531	113	0	0	0	0	0	46
+Paracoccus liaowanqingii	2560053	0	0	0	0	0	0	18	1039	414	103	0	0	0	0	0	38
+Roseivivax marinus	1379903	0	0	0	0	0	0	33	112	57	0	0	0	0	0	0	0
+Campylobacter corcagiensis	1448857	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0
+Streptococcus sp. KS 6	2598457	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0
+Lactococcus taiwanensis	1151742	0	0	0	0	0	0	0	25	0	18	74	0	0	0	0	0
+Leuconostoc mesenteroides	1245	0	0	0	0	0	0	0	11	0	14	0	0	0	0	0	0
+Lentilactobacillus parabuchneri	152331	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Schleiferilactobacillus harbinensis	304207	0	0	0	0	0	0	0	12	0	11	0	10	0	0	0	0
+Carnobacterium maltaromaticum	2751	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Staphylococcus warneri	1292	0	0	0	0	0	0	0	31	0	16	0	0	0	0	0	0
+Staphylococcus pasteuri	45972	0	0	0	0	0	0	0	12	0	12	0	0	0	0	0	0
+Christensenella minuta	626937	0	0	0	0	0	0	0	5945	0	9	0	0	0	0	0	0
+Ruminococcus bicirculans (ex Wegman et al. 2014)	1160721	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0
+Blautia obeum	40520	0	0	0	0	0	0	0	62	0	0	0	0	0	0	0	58
+Coprococcus sp. ART55/1	751585	0	0	0	0	0	0	0	55	0	0	0	0	0	0	0	42
+Eubacterium ventriosum	39496	0	0	0	0	0	0	0	13	0	0	0	0	0	0	0	12
+Phascolarctobacterium faecium	33025	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	0
+Nocardioides sp. S-1144	2582905	0	0	0	0	0	0	0	833	130	117	0	0	0	0	0	0
+Nocardioides sp. cx-173	2898796	0	0	0	0	0	0	0	385	270	52	0	0	0	0	0	0
+Nocardioides sp. W7	2931390	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0
+Nocardioides sp. S-34	3095075	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0
+Nocardioides sp. Arc9.136	2996826	0	0	0	0	0	0	0	25	0	12	0	0	0	0	0	0
+Nocardioides sp. LMS-CY	2840457	0	0	0	0	0	0	0	19	25	0	0	0	0	0	0	0
+Nocardioides sp. JS614	196162	0	0	0	0	0	0	0	26	0	0	0	0	0	0	0	0
+Nocardioides sp. zg-1228	2763008	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0
+Nocardioides sp. S5	2017486	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0
+Nocardioides sp. JQ2195	2592334	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0
+Nocardioides sp. TF02-7	2917724	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0
+Nocardioides dongkuii	2760089	0	0	0	0	0	0	0	38	0	0	0	0	0	0	0	0
+Nocardioides scoriae	642780	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0
+Nocardioides houyundeii	2045452	0	0	0	0	0	0	0	24	0	0	0	0	0	0	0	0
+Nocardioides anomalus	2712223	0	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0
+Nocardioides marmotae	2663857	0	0	0	0	0	0	0	26	0	0	0	0	0	0	0	0
+Nocardioides ungokensis	1643322	0	0	0	0	0	0	0	21	0	0	0	0	0	0	0	0
+Nocardioides pantholopis	2483798	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0
+Nocardioides aromaticivorans	200618	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0
+Nocardioides marinisabuli	419476	0	0	0	0	0	0	0	20	0	0	0	0	0	0	0	0
+Nocardioides campestrisoli	2736757	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0
+Nocardioides ochotonae	2685869	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0
+Nocardioides cynanchi	2558918	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0
+Nocardioides seonyuensis	2518371	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0
+Acidipropionibacterium jensenii	1749	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0
+Bifidobacterium pseudocatenulatum	28026	0	0	0	0	0	0	0	48	0	0	0	0	395	22	0	70
+Corynebacterium tuberculostearicum	38304	0	0	0	0	0	0	0	48	0	0	0	0	0	0	0	0
+Microbacterium oxydans	82380	0	0	0	0	0	0	0	51	0	0	0	0	0	0	0	0
+Collinsella aerofaciens	74426	0	0	0	0	0	0	0	20	0	40	11	0	0	0	52	21
+Adlercreutzia equolifaciens	446660	0	0	0	0	0	0	0	12	0	0	0	0	0	9	0	22
+Enterobacter cloacae	550	0	0	0	0	0	0	0	35	0	0	0	0	0	0	0	0
+Citrobacter braakii	57706	0	0	0	0	0	0	0	222	0	0	0	0	0	0	0	0
+Pantoea sp. SO10	2575375	0	0	0	0	0	0	0	342	62	172	0	0	0	0	0	0
+Pantoea sp. SS70	3024247	0	0	0	0	0	0	0	363	49	159	0	0	0	0	0	0
+Pantoea sp. X85	3037258	0	0	0	0	0	0	0	382	33	208	0	0	0	0	0	0
+Pantoea sp. SOD02	2970818	0	0	0	0	0	0	0	34	0	32	0	0	0	0	0	0
+Pseudomonas sp. CCI1.1	3048613	0	0	0	0	0	0	0	740	521	0	0	0	0	0	0	0
+Pseudomonas sp. CFSAN084952	2664899	0	0	0	0	0	0	0	475	339	0	0	0	0	0	0	0
+Pseudomonas sp. BIOMIG1BAC	1758730	0	0	0	0	0	0	0	52	0	0	0	0	0	0	0	0
+Pseudomonas aeruginosa	287	0	0	0	0	0	0	0	1767	0	0	0	0	0	0	0	0
+Pseudomonas synxantha	47883	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0
+Pseudomonas rhodesiae	76760	0	0	0	0	0	0	0	10	21	77	44	0	0	0	0	0
+Pseudomonas putida	303	0	0	0	0	0	0	0	32	0	0	0	0	0	0	0	0
+Luteimonas sp. MC1750	2799326	0	0	0	0	0	0	0	88	16	21	0	0	0	0	0	0
+Luteimonas sp. MC1572	2799325	0	0	0	0	0	0	0	26	0	0	0	0	0	0	0	0
+Luteimonas granuli	1176533	0	0	0	0	0	0	0	63	0	0	0	0	0	0	0	0
+Xanthomonas albilineans	29447	0	0	0	0	0	0	0	85	0	0	0	0	0	0	0	0
+Acinetobacter radioresistens	40216	0	0	0	0	0	0	0	164	0	0	0	0	0	0	0	0
+Aliivibrio fischeri	668	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0
+Photobacterium leiognathi	553611	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0
+Haemophilus parainfluenzae	729	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0
+Paracoccus marcusii	59779	0	0	0	0	0	0	0	2376	802	223	64	0	0	0	0	107
+Paracoccus sp. Arc7-R13	2500532	0	0	0	0	0	0	0	1427	628	139	0	0	0	0	0	0
+Paracoccus sp. S3-43	3030011	0	0	0	0	0	0	0	180	61	0	0	0	0	0	0	0
+Paracoccus sp. AK26	2589076	0	0	0	0	0	0	0	102	46	0	0	0	0	0	0	0
+Paracoccus sp. M09	3064531	0	0	0	0	0	0	0	61	25	0	0	0	0	0	0	0
+Paracoccus sp. TOH	1263728	0	0	0	0	0	0	0	33	0	0	0	0	0	0	0	0
+Paracoccus sp. MC1862	2760307	0	0	0	0	0	0	0	20	21	0	0	0	0	0	0	0
+Paracoccus sp. MA	2895796	0	0	0	0	0	0	0	44	0	0	0	0	0	0	0	0
+Paracoccus stylophorae	659350	0	0	0	0	0	0	0	154	49	0	0	0	0	0	0	0
+Paracoccus fistulariae	658446	0	0	0	0	0	0	0	85	15	0	0	0	0	0	0	0
+Paracoccus zhejiangensis	1077935	0	0	0	0	0	0	0	77	29	0	0	0	0	0	0	0
+Paracoccus seriniphilus	184748	0	0	0	0	0	0	0	48	24	0	0	0	0	0	0	0
+Paracoccus saliphilus	405559	0	0	0	0	0	0	0	44	14	0	0	0	0	0	0	0
+Paracoccus tegillarcae	1529068	0	0	0	0	0	0	0	42	24	0	0	0	0	0	0	0
+Paracoccus yeei	147645	0	0	0	0	0	0	0	97	52	0	0	0	0	0	0	0
+Paracoccus jeotgali	2065379	0	0	0	0	0	0	0	37	18	0	0	0	0	0	0	0
+Paracoccus contaminans	1945662	0	0	0	0	0	0	0	34	0	0	0	0	0	0	0	0
+Paracoccus pantotrophus	82367	0	0	0	0	0	0	0	66	29	0	0	0	0	0	0	0
+Paracoccus suum	2259340	0	0	0	0	0	0	0	29	0	0	0	0	0	0	0	0
+Paracoccus sanguinis	1545044	0	0	0	0	0	0	0	36	0	0	0	0	0	0	0	0
+Paracoccus everestensis	2903900	0	0	0	0	0	0	0	69	28	0	0	0	0	0	0	0
+Paracoccus aminovorans	34004	0	0	0	0	0	0	0	34	13	0	0	0	0	0	0	0
+Paracoccus aerodenitrificans	3017781	0	0	0	0	0	0	0	35	35	0	0	0	0	0	0	0
+Paracoccus methylovorus	2812658	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0
+Paracoccus aminophilus	34003	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0
+Paracoccus denitrificans	266	0	0	0	0	0	0	0	24	27	0	0	0	0	0	0	0
+Paracoccus albicereus	2922394	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Paracoccus sediminicola	3017783	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0
+Paracoccus kondratievae	135740	0	0	0	0	0	0	0	11	0	0	0	0	0	0	0	0
+Cereibacter sphaeroides	1063	0	0	0	0	0	0	0	32	0	0	0	0	0	0	0	0
+Cereibacter azotoformans	43057	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Rhodobacter capsulatus	1061	0	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0
+Rhodovulum sulfidophilum	35806	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0
+Pseudooceanicola spongiae	2613965	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0
+Thioclava electrotropha	1549850	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0
+Falsirhodobacter algicola	2692330	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0
+Haematobacter massiliensis	195105	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0
+Brevirhabdus pacifica	1267768	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0
+Leisingera aquaemixtae	1396826	0	0	0	0	0	0	0	37	0	0	0	0	0	0	0	0
+Loktanella salsilacus	195913	0	0	0	0	0	0	0	12	14	0	0	0	0	0	0	0
+Rhizobium rosettiformans	1368430	0	0	0	0	0	0	0	83	27	0	0	0	0	0	0	0
+Bradyrhizobium sp. SK17	2057741	0	0	0	0	0	0	0	71	0	0	0	0	0	0	0	0
+Mesorhizobium terrae	2725666	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0
+Sphingomonas donggukensis	2949093	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0
+Sphingobium yanoikuyae	13690	0	0	0	0	0	0	0	38	20	0	0	0	0	0	0	0
+Paracidovorax avenae	80867	0	0	0	0	0	0	0	31	0	0	0	0	0	0	0	0
+Ralstonia pickettii	329	0	0	0	0	0	0	0	25	0	0	0	0	0	0	0	0
+Ralstonia insidiosa	190721	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0
+Cupriavidus gilardii	82541	0	0	0	0	0	0	0	30	0	0	0	0	0	0	0	0
+Massilia sp. NP310	2861282	0	0	0	0	0	0	0	35	0	0	0	0	0	0	0	0
+Duganella zoogloeoides	75659	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0
+Herbaspirillum huttiense	863372	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0
+Bacteroides stercoris	46506	0	0	0	0	0	0	0	115	0	18	0	0	0	95	39	113
+Bacteroides ovatus	28116	0	0	0	0	0	0	0	120	0	0	66	0	0	0	444	120
+Bacteroides caccae	47678	0	0	0	0	0	0	0	26	0	0	36	0	0	0	12	17
+Bacteroides intestinalis	329854	0	0	0	0	0	0	0	13	0	0	0	0	0	10	0	12
+Phocaeicola dorei	357276	0	0	0	0	0	0	0	25	0	54	146	0	0	0	56	20
+Alistipes communis	2585118	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0	21
+Odoribacter splanchnicus	28118	0	0	0	0	0	0	0	24	0	0	13	0	0	0	0	43
+Paraprevotella xylaniphila	454155	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	9
+Segatella copri	165179	0	0	0	0	0	0	0	8	0	0	319	0	24	0	0	0
+Chryseobacterium indologenes	253	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0
+Empedobacter falsenii	343874	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0
+Streptococcus phage TP-778L	1385385	0	0	0	0	0	0	0	12569	0	0	0	0	0	0	0	0
+Brussowvirus ALQ132	682370	0	0	0	0	0	0	0	54	0	0	0	0	0	0	0	0
+Streptococcus acidominimus	1326	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0
+Streptococcus halichoeri	254785	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0
+Enterococcus casseliflavus	37734	0	0	0	0	0	0	0	0	322	0	58	0	0	0	0	0
+Enterococcus mundtii	53346	0	0	0	0	0	0	0	0	8	0	0	9	0	0	0	0
+Kocuria rosea	1275	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0
+Deinococcus aquaticus	328692	0	0	0	0	0	0	0	0	35	0	0	0	0	0	0	0
+Stutzerimonas stutzeri	316	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0
+Paracoccus versutus	34007	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	0
+Ketogulonicigenium vulgare	92945	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0
+Massilia violaceinigra	2045208	0	0	0	0	0	0	0	0	42	0	0	0	0	0	0	0
+Lentilactobacillus kefiri	33962	0	0	0	0	0	0	0	0	0	10	0	8	0	0	0	0
+Staphylococcus ureilyticus	94138	0	0	0	0	0	0	0	0	0	27	0	0	0	0	0	0
+Enterocloster clostridioformis	1531	0	0	0	0	0	0	0	0	0	32	0	0	0	0	12	0
+Acidaminococcus intestini	187327	0	0	0	0	0	0	0	0	0	66	12	0	0	0	56	0
+Bifidobacterium dentium	1689	0	0	0	0	0	0	0	0	0	15	44	77	236	0	25	0
+Corynebacterium auriscanis	99807	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0
+Xenorhabdus doucetiae	351671	0	0	0	0	0	0	0	0	0	663	0	0	0	0	0	0
+Sutterella wadsworthensis	40545	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0
+Akkermansia muciniphila	239935	0	0	0	0	0	0	0	0	0	62	31	0	0	0	48	0
+Bdellovibrio bacteriovorus	959	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0
+Lactococcus protaetiae	2592653	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+Paenibacillus crassostreae	1763538	0	0	0	0	0	0	0	0	0	0	60	0	0	0	0	0
+Clostridium perfringens	1502	0	0	0	0	0	0	0	0	0	0	17	0	0	0	66	0
+Megasphaera elsdenii	907	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0
+Megamonas funiformis	437897	0	0	0	0	0	0	0	0	0	0	39	0	0	0	0	0
+Bifidobacterium sp. KRGSERBCFTRI	2985571	0	0	0	0	0	0	0	0	0	0	23323	88334	82048	0	0	0
+Kocuria sp. KD4	2719588	0	0	0	0	0	0	0	0	0	0	88	0	0	0	0	0
+Kocuria indica	1049583	0	0	0	0	0	0	0	0	0	0	48	0	0	0	0	0
+Serinicoccus chungangensis	767452	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0
+Trueperella pyogenes	1661	0	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0
+Thermus brockianus	56956	0	0	0	0	0	0	0	0	0	0	25	0	0	0	0	0
+Thermus sp. NEB1569	2918899	0	0	0	0	0	0	0	0	0	0	23	0	0	0	0	0
+Pseudomonas fluorescens	294	0	0	0	0	0	0	0	0	0	0	152	0	0	0	0	0
+Pseudomonas proteolytica	219574	0	0	0	0	0	0	0	0	0	0	53	0	0	0	0	0
+Pseudomonas hygromyciniae	2812000	0	0	0	0	0	0	0	0	0	0	46	0	0	0	0	0
+Kosakonia pseudosacchari	1646340	0	0	0	0	0	0	0	0	0	0	24	0	0	0	0	0
+Acinetobacter sp. TTH0-4	1646498	0	0	0	0	0	0	0	0	0	0	45	0	0	0	0	0
+Acinetobacter schindleri	108981	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0
+Bacteroides faecis	674529	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0
+Bacteroides heparinolyticus	28113	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0
+Phocaeicola coprophilus	387090	0	0	0	0	0	0	0	0	0	0	43	0	0	0	0	0
+Alistipes shahii	328814	0	0	0	0	0	0	0	0	0	0	9	0	0	0	12	0
+Fusobacterium necrophorum	859	0	0	0	0	0	0	0	0	0	0	25	0	0	0	0	0
+Lactococcus phage ul36	114416	0	0	0	0	0	0	0	0	0	0	106	0	0	0	0	0
+Lactococcus phage 98201	1871690	0	0	0	0	0	0	0	0	0	0	46	0	0	0	0	0
+Lactococcus phage Tuc2009	35241	0	0	0	0	0	0	0	0	0	0	35	0	0	0	0	0
+Streptococcus phage CHPC577	1913081	0	0	0	0	0	0	0	0	0	0	56	0	0	0	0	0
+Lactococcus phage r1t	43685	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0	0
+Sandinevirus BK5T	2845191	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0
+Lacticaseibacillus pantheris	171523	0	0	0	0	0	0	0	0	0	0	0	126	0	0	0	0
+Lacticaseibacillus chiayiensis	2100821	0	0	0	0	0	0	0	0	0	0	0	75	0	0	0	0
+Lacticaseibacillus manihotivorans	88233	0	0	0	0	0	0	0	0	0	0	0	38	0	0	0	0
+Lacticaseibacillus zeae	57037	0	0	0	0	0	0	0	0	0	0	0	43	0	0	0	0
+Lactobacillus sp. Kim32-2	2976676	0	0	0	0	0	0	0	0	0	0	0	57	0	0	0	0
+Lactobacillus kefiranofaciens	267818	0	0	0	0	0	0	0	0	0	0	0	62	0	0	0	0
+Lactobacillus johnsonii	33959	0	0	0	0	0	0	0	0	0	0	0	30	9	0	0	0
+Liquorilactobacillus nagelii	82688	0	0	0	0	0	0	0	0	0	0	0	2679	0	0	0	0
+Pediococcus damnosus	51663	0	0	0	0	0	0	0	0	0	0	0	189	0	0	0	0
+Pediococcus pentosaceus	1255	0	0	0	0	0	0	0	0	0	0	0	77	0	0	0	0
+Companilactobacillus futsaii	938155	0	0	0	0	0	0	0	0	0	0	0	250	0	0	0	0
+Furfurilactobacillus rossiae	231049	0	0	0	0	0	0	0	0	0	0	0	164	0	0	0	0
+Staphylococcus sp. M0911	2025492	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	0
+Peptacetobacter hiranonis	89152	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0
+Bifidobacterium choerinum	35760	0	0	0	0	0	0	0	0	0	0	0	12	51	0	0	0
+Bifidobacterium sp. ESL0764	2983228	0	0	0	0	0	0	0	0	0	0	0	0	58	0	0	0
+Bifidobacterium thermophilum	33905	0	0	0	0	0	0	0	0	0	0	0	0	38	0	0	0
+Bifidobacterium subtile	77635	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0
+Bifidobacterium asteroides	1684	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0
+Staphylococcus cohnii	29382	0	0	0	0	0	0	0	0	0	0	0	0	82	0	0	0
+Kluyvera intermedia	61648	0	0	0	0	0	0	0	0	0	0	0	0	38	0	0	0
+Hafnia alvei	569	0	0	0	0	0	0	0	0	0	0	0	0	30	0	0	0
+Rahnella inusitata	58169	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0
+Streptococcus sp. LPB0220	2610896	0	0	0	0	0	0	0	0	0	0	0	0	0	48	0	0
+Streptococcus lactarius	684066	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0
+Lactococcus petauri	1940789	0	0	0	0	0	0	0	0	0	0	0	0	0	178	0	0
+Staphylococcus haemolyticus	1283	0	0	0	0	0	0	0	0	0	0	0	0	0	26	0	0
+Polaribacter litorisediminis	1908341	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0
+Blautia sp. SC05B48	2479767	0	0	0	0	0	0	0	0	0	0	0	0	0	0	38	0
+Roseburia hominis	301301	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0
+Veillonella parvula	29466	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0
+Eggerthella lenta	84112	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0
+Alistipes finegoldii	214856	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0
+Paraprevotella clara	454154	0	0	0	0	0	0	0	0	0	0	0	0	0	0	23	0
+Butyricimonas virosa	544645	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	0
