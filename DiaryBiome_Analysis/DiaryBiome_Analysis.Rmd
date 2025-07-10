@@ -1,0 +1,363 @@
+---
+title: "DiaryBiome: downstream analysis of yogurt and dietary supplement metagenomes"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+    theme: cosmo
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  dpi = 300
+)
+
+# Load configuration
+config <- yaml::read_yaml("config.yaml")
+
+# Set random seed for reproducibility
+set.seed(config$analysis$random_seed)
+
+## Loading libraries for analysis
+library(phyloseq)
+library(vegan)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(readr)
+library(knitr)
+library(patchwork)
+library(RColorBrewer)
+library(scales)
+library(ggrepel)
+library(pheatmap)
+library(yaml)
+# Add ANCOMBC install if missing
+if (!requireNamespace("ANCOMBC", quietly = TRUE)) {
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+  BiocManager::install("ANCOMBC")
+}
+library(ANCOMBC)
+```
+
+# Data Import and Filtering
+## Import & Metadata Integration
+
+Loading the microbial abundance table produced during preprocessing step and associated sample metadata. The metadata was cleaned and reformatted to retain key variables, including sample identifiers and food type categories (e.g., yogurt or supplement). 
+
+```{r import_data}
+# Importing abundance matrix
+abundance_data <- read.delim(config$input$abundance_file, 
+                            sep = "\t", header = TRUE, stringsAsFactors = FALSE)
+metadata <- read.csv(config$input$metadata_file, 
+                     header = TRUE, stringsAsFactors = FALSE)
+
+# Clean up metadata for analysis
+metadata_clean <- data.frame(
+  sample_id = metadata$Run,
+  food_type = metadata$isolation_source,
+  sample_name = metadata$Sample.Name,
+  stringsAsFactors = FALSE
+)
+
+print(head(abundance_data[, 1:5]))
+print(head(metadata_clean))
+``` 
+
+Filtered out non-target taxa such as human DNA, viruses, and bacteriophages from the abundance table to focus the analysis on bacterial and fungal communities. We then calculated the number of reads per sample before and after filtering to assess the impact of this step. 
+
+```{r filter_taxa}
+# Calculate reads before filtering
+reads_before <- colSums(abundance_data[, -c(1,2)])
+
+# Create a list of taxa to remove (non-bacterial/fungal)
+taxa_to_remove <- c(
+  "Homo sapiens",
+  "Respirovirus laryngotracheitidis",
+  "Lactococcus phage ul36",
+  "Lactococcus phage 98201",
+  "Lactococcus phage Tuc2009",
+  "Streptococcus phage CHPC577",
+  "Lactococcus phage r1t",
+  "Sandinevirus BK5T",
+  "Streptococcus phage TP-778L",
+  "Brussowvirus ALQ132",
+  "Slopekvirus pht4A",
+  "Slopekvirus eap3",
+  "Rosenblumvirus CSA13",
+  "Avian coronavirus"
+)
+
+# Filter the abundance table
+filtered_abundance <- abundance_data %>%
+  filter(!taxon %in% taxa_to_remove)
+
+# Calculate reads after filtering
+reads_after <- colSums(filtered_abundance[, -c(1,2)])
+
+# Create comparison table
+filtering_summary <- data.frame(
+  sample_id = names(reads_before),
+  reads_before = reads_before,
+  reads_after = reads_after,
+  reads_removed = reads_before - reads_after,
+  percent_removed = round((reads_before - reads_after) / reads_before * 100, 2)
+) %>%
+  left_join(metadata_clean, by = "sample_id")
+
+cat("Read filtering summary:\n")
+print(filtering_summary)
+
+```
+
+# Alpha Diversity Analysis
+
+## Calculate Richness and Diversity Indices
+
+We constructed a phyloseq object by combining the filtered abundance matrix, taxonomic annotations, and sample metadata. This integrated structure simplifies microbiome data handling and allows seamless downstream analysis of alpha and beta diversity. The phyloseq R package is a widely adopted tool in microbial ecology ([McMurdie & Holmes, 2013](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061217)). 
+
+```{r alpha_diversity}
+# Create phyloseq object for diversity analysis
+# Extract abundance matrix
+abundance_matrix <- filtered_abundance %>%
+  select(-taxon, -taxon_id) %>%
+  as.matrix()
+
+# Create taxon table
+taxon_table <- filtered_abundance %>%
+  select(taxon, taxon_id) %>%
+  mutate(OTU = paste0("OTU_", row_number())) %>%
+  select(OTU, taxon, taxon_id)
+
+# Create sample data
+sample_data <- metadata_clean
+rownames(sample_data) <- sample_data$sample_id
+sample_data <- sample_data[, -which(colnames(sample_data) == "sample_id")]
+
+# Create phyloseq object
+ps <- phyloseq(
+  otu_table(abundance_matrix, taxa_are_rows = TRUE),
+  sample_data(sample_data),
+  tax_table(as.matrix(taxon_table))
+)
+
+# Add sample names
+sample_names(ps) <- colnames(abundance_matrix)
+taxa_names(ps) <- taxon_table$OTU
+
+ps
+
+```
+
+We estimated within-sample (alpha) diversity using four common indices—**Observed**, **Shannon**, **Simpson**, and **Fisher**—using the `estimate_richness()` function from the `phyloseq` package. These metrics capture different aspects of community richness and evenness. Shannon and Simpson indices account for both the number and relative abundance of taxa, while the Observed and Fisher indices focus on richness. 
+
+```{r}
+alpha_div <- estimate_richness(ps, measures = c("Observed", "Shannon", "Simpson", "Fisher")) 
+cat("Alpha diversity indices by sample:\n")
+print(alpha_div)
+```
+Here we visualize results of alpha diversity tests:
+
+```{r}
+# Add sample metadata
+alpha_div$sample_id <- rownames(alpha_div)
+alpha_div$food_type <- sample_data(ps)$food_type  # adjust column name
+
+# Build individual ggplot panels
+make_plot <- function(metric_name, y_label) {
+  ggplot(alpha_div, aes(x = sample_id, y = .data[[metric_name]], fill = food_type, alpha(0.7))) +
+    geom_col(position = "dodge") +
+    labs(y = y_label, x = NULL, title = metric_name) +
+    scale_fill_brewer(palette = "Set1") +
+    theme_bw(base_size = 12) +
+    theme(axis.text.x = element_text(angle = 45, hjust = 1),
+          legend.position = ifelse(metric_name == "Observed", "right", "none"))
+}
+
+p_obs     <- make_plot("Observed", "Richness")
+p_shannon <- make_plot("Shannon", "Shannon Index")
+p_simpson <- make_plot("Simpson", "Simpson Index")
+p_fisher  <- make_plot("Fisher", "Fisher Alpha")
+
+# Combine plots using patchwork
+layout <- (p_obs | p_shannon) / (p_simpson | p_fisher)
+
+print(layout)
+```
+
+## Statistical Testing of Alpha Diversity
+
+To statistically compare alpha diversity between food types, we applied the **Wilcoxon rank-sum test** (also to each diversity index (Observed, Shannon, Simpson, and Fisher). This non-parametric test is suitable for small sample sizes and does not assume normality. This test is appropriate for microbiome data, which often deviate from Gaussian distributions. The results report the W statistic and p-values, with asterisks indicating significant differences (p < 0.05) between groups.
+
+```{r}
+# Wilcoxon test for Observed 
+obs_wilcox <- wilcox.test(Observed ~ food_type, data = alpha_div)
+cat("\n Wilcoxon test for Observed:\n")
+cat(sprintf("- W statistic = %.2f\n", obs_wilcox$statistic))
+cat(sprintf("- p-value     = %.3g%s\n",
+            obs_wilcox$p.value,
+            ifelse(obs_wilcox$p.value < 0.05, " *", "")))
+
+# Wilcoxon test for Shannon 
+shannon_wilcox <- wilcox.test(Shannon ~ food_type, data = alpha_div)
+cat("\n Wilcoxon test for Shannon:\n")
+cat(sprintf("- W statistic = %.2f\n", shannon_wilcox$statistic))
+cat(sprintf("- p-value     = %.3g%s\n",
+            shannon_wilcox$p.value,
+            ifelse(shannon_wilcox$p.value < 0.05, " *", "")))
+
+# Wilcoxon test for Simpson
+simpson_wilcox <- wilcox.test(Simpson ~ food_type, data = alpha_div)
+cat("\n Wilcoxon test for Simpson:\n")
+cat(sprintf("- W statistic = %.2f\n", simpson_wilcox$statistic))
+cat(sprintf("- p-value     = %.3g%s\n",
+            simpson_wilcox$p.value,
+            ifelse(simpson_wilcox$p.value < 0.05, " *", "")))
+
+# Wilcoxon test for Fisher 
+fisher_wilcox <- wilcox.test(Fisher ~ food_type, data = alpha_div)
+cat("\n Wilcoxon test for Fisher:\n")
+cat(sprintf("- W statistic = %.2f\n", fisher_wilcox$statistic))
+cat(sprintf("- p-value     = %.3g%s\n",
+            fisher_wilcox$p.value,
+            ifelse(fisher_wilcox$p.value < 0.05, " *", "")))
+```
+
+# Beta Diversity Analysis
+
+## Bray-Curtis Dissimilarity
+
+To assess differences in microbial community composition **between** samples, we computed the Bray-Curtis dissimilarity matrix using the `phyloseq::distance()` function. Bray-Curtis is a widely used ecological distance metric that considers the abundance of shared and unique taxa between samples.
+
+```{r beta_diversity}
+# Calculate Bray-Curtis dissimilarity matrix
+bray_dist <- phyloseq::distance(ps, method = "bray")
+bray_dist
+```
+We performed **Principal Coordinate Analysis (PCoA)** on the Bray-Curtis dissimilarity matrix to visualize beta diversity among samples in a reduced dimensional space. Using classical multidimensional scaling (`cmdscale`), we extracted the first three principal coordinates and calculated the percentage of variance explained by each axis.
+
+```{r}
+# PCoA analysis
+pcoa_result <- cmdscale(bray_dist, k = 3, eig = TRUE)
+
+# Extract coordinates
+pcoa_coords <- as.data.frame(pcoa_result$points)
+colnames(pcoa_coords) <- c("PCoA1", "PCoA2", "PCoA3")
+eigenvals <- pcoa_result$eig
+explained_var <- 100 * eigenvals / sum(eigenvals[eigenvals > 0])
+
+# Add sample IDs and join with metadata
+pcoa_coords <- pcoa_coords %>% 
+  tibble::rownames_to_column("sample_id") 
+
+pcoa_data <- pcoa_coords %>%
+  left_join(metadata_clean, by = "sample_id") 
+
+print(head(pcoa_data))
+```
+Visualization of PCoA results
+
+```{r pcoa_plot, fig.width=6, fig.height=6}
+# Create PCoA plot
+p_pcoa <- ggplot(pcoa_data, aes(x = PCoA1, y = PCoA2, color = food_type, shape = food_type)) +
+  geom_point(size = 4, alpha = 0.7)  +
+  scale_color_brewer(palette = "Set1") +
+  labs(title = "Principal Coordinate Analysis (PCoA) - Bray-Curtis dissimilarity",
+       x = paste0("PCoA1 (", round(explained_var[1], 1), "%)"),
+       y = paste0("PCoA2 (", round(explained_var[2], 1), "%)"),
+       color = "Food Type",
+       shape = "Food Type") +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+
+print(p_pcoa)
+```
+
+
+## Statistical Testing of Beta Diversity
+
+To statistically assess differences in microbial community composition between food types, we applied **PERMANOVA** (Permutational Multivariate Analysis of Variance) using the `adonis2()` function. This non-parametric test evaluates whether the centroids of sample groups differ significantly in multivariate space, based on the Bray-Curtis dissimilarity matrix.
+
+We additionally tested for **homogeneity of group dispersions** using `betadisper()` to ensure that differences detected by PERMANOVA were not driven by unequal within-group variance. This step helps validate that group differences reflect shifts in community structure rather than dispersion alone.
+
+
+```{r permanova}
+# Perform PERMANOVA to test for significant differences between food types
+permanova_result <- adonis2(bray_dist ~ food_type, data = sample_data)
+
+# Display PERMANOVA results
+cat("PERMANOVA Results:\n")
+print(permanova_result)
+
+# Save PERMANOVA results
+permanova_df <- as.data.frame(permanova_result)
+
+# Perform homogeneity of multivariate dispersions test
+dispersion_test <- betadisper(bray_dist, sample_data$food_type)
+anova_dispersion <- anova(dispersion_test)
+
+cat("\nHomogeneity of Multivariate Dispersions Test:\n")
+print(anova_dispersion)
+```
+
+
+# Differential Abundance Analysis
+
+**ANCOM-BC (Analysis of Compositions of Microbiomes with Bias Correction)** models microbial count data while correcting for compositional bias and unequal sampling depths. It was chosen because of unbiased estimates of log-fold changes (log₂FC) across groups. ANCOM-BC is particularly well-suited for microbiome studies with modest sample sizes and varying library depths, as in our case.
+
+```{r}
+# Prepare data for ANCOM-BC
+ancombc_result <- ancombc(ps, formula = "food_type", 
+                         p_adj_method = "holm", 
+                         lib_cut = 0, 
+                        group = "food_type")
+```
+
+```{r}
+res_df <- data.frame(
+  taxon_id = ancombc_result$res$p_val$taxon,
+  log2FC     = ancombc_result$res$lfc$food_typeyogurt,
+  SE         = ancombc_result$res$se$food_typeyogurt,
+  p_value    = ancombc_result$res$p_val$food_typeyogurt,
+  q_value    = ancombc_result$res$q_val$food_typeyogurt,
+  significant = ancombc_result$res$diff_abn$food_typeyogurt
+)
+
+# Get taxonomy (species names)
+tax_df <- as.data.frame(tax_table(ps))
+tax_df$taxon_id <- rownames(tax_df) 
+
+# Merge for annotation
+res_merged <- res_df %>%
+  left_join(tax_df, by = "taxon_id") %>%
+  select(taxon_id, taxon, log2FC, SE, p_value, q_value, significant) %>%
+  arrange(q_value)
+
+# Filter significant taxa
+sig_df <- res_merged %>% filter(significant == TRUE)
+
+# Report
+cat("### ANCOM-BC Results Summary\n")
+cat("Total taxa tested:", nrow(res_merged), "\n")
+cat("Significant taxa (q < 0.05):", nrow(sig_df), "\n")
+cat("Higher in yogurt group (log2FC > 0):", sum(sig_df$log2FC > 0), "\n")
+cat("Higher in supplement group (log2FC < 0):", sum(sig_df$log2FC < 0), "\n")
+
+# Extract species names (or full taxonomy label) of significant taxa
+significant_species <- sig_df$taxon
+
+# Print species list
+cat("### Significant Taxa (Species Level):\n")
+cat(paste0("• ", significant_species), sep = "\n")
+
+```

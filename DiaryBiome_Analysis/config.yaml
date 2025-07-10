@@ -1,0 +1,22 @@
+# Downstream Analysis Configuration
+# This file contains parameters for the analysis workflow
+
+# Input files
+input:
+  abundance_file: "/Users/dshipilina/GitHub/DiaryBiome/DiaryBiome_Preprocess/demo_output/results/combined_abundance_table.tsv"
+  metadata_file: "/Users/dshipilina/GitHub/DiaryBiome/DiaryBiome_Preprocess/DiaryBiome_Analysis/SraRunTable.csv"
+
+# Filtering parameters
+filtering:
+  min_reads: 10  
+  min_samples: 3  
+
+# Analysis parameters
+analysis:
+  fdr_threshold: 0.05  # False Discovery Rate threshold
+  logfc_threshold: 1.0  # Log2 fold change threshold
+  random_seed: 42  # Random seed for reproducibility
+
+# Output parameters
+output:
+  results_file: "results/tables/significant_deseq2_results.csv" 

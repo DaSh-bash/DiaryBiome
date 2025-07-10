@@ -1,0 +1,21 @@
+name: diarybiome_analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base>=4.2.0
+  - bioconductor-phyloseq
+  - r-vegan
+  - r-ggplot2
+  - r-data.table
+  - r-ggrepel
+  - r-dplyr
+  - r-readr
+  - r-knitr
+  - r-rmarkdown
+  - r-scales
+  - r-pheatmap
+  - r-patchwork
+  - r-tidyr
+  - r-yaml

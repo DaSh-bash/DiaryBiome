@@ -18,14 +18,14 @@ Comprehensive diversity analyses and differential abundance analysis between die
 
 ```
 DiaryBiome/
-├── DiaryBiome_Preprocess/     # Task 1: Bioinformatics Data Processing
+├── DiaryBiome_Preprocess/     # Bioinformatics Data Processing
 │   ├── config/                # Pipeline configuration
 │   ├── envs/                  # Conda environments
 │   ├── data/                  # Input data and samples
 │   ├── results/               # Processing outputs
 │   ├── demo_output/           # Example results
 │   └── Snakefile              # Snakemake workflow
-├── DiaryBiome_Analysis/       # Task 2: Statistical Analysis
+├── DiaryBiome_Analysis/       # Statistical Analysis
 │   └── [Analysis scripts and outputs]
 ├── DiaryBiome.png             # Project logo
 └── README.md                  # This file
