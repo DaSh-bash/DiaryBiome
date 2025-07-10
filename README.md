@@ -11,24 +11,44 @@ DiaryBiome consists of two main components, each addressing a specific task in t
 ### Task 1: Bioinformatics data processing (`DiaryBiome_Preprocess/`)
 A reproducible, efficient, and easy-to-share bioinformatics workflow covering essential preprocessing and taxonomic classification of metagenomic data.
 
-### Task 2: Statistical Analysis (`DiaryBiome_Analysis/`)
-Comprehensive diversity analyses and differential abundance analysis between dietary supplement and yogurt samples using the processed data from processing step.
+### Task 2: Statistical analysis (`DiaryBiome_Analysis/`)
+Comprehensive diversity and differential abundance analysis between dietary supplement and yogurt samples using the processed data from processing step.
 
-## Project Structure
+## Project structure
 
 ```
 DiaryBiome/
-├── DiaryBiome_Preprocess/     # Bioinformatics Data Processing
-│   ├── config/                # Pipeline configuration
-│   ├── envs/                  # Conda environments
-│   ├── data/                  # Input data and samples
-│   ├── results/               # Processing outputs
-│   ├── demo_output/           # Example results
-│   └── Snakefile              # Snakemake workflow
-├── DiaryBiome_Analysis/       # Statistical Analysis
-│   └── [Analysis scripts and outputs]
-├── DiaryBiome.png             # Project logo
-└── README.md                  # This file
+├── DiaryBiome_Preprocess/         # Bioinformatics Data Processing
+│   ├── config/                    # Pipeline configuration
+│   │   └── config.yml
+│   ├── envs/                      # Conda environments
+│   │   └── environment.yml
+│   ├── data/                      # Input data and samples
+│   │   └── samples.txt
+│   ├── results/                   # Processing outputs (empty by default)
+│   ├── demo_output/               # Example results
+│   │   └── results/
+│   │       ├── bracken/
+│   │       │   ├── SRR11605259.bracken
+│   │       │   └── SRR11605259.breport
+│   │       ├── combined_abundance_table.tsv
+│   │       ├── kneaddata/
+│   │       ├── kraken2/
+│   │       └── multiqc_report/
+│   │           ├── multiqc_data/
+│   │           └── multiqc_report.html
+│   ├── Snakefile                  # Snakemake workflow
+│   └── README.md                  # Pipeline documentation
+├── DiaryBiome_Analysis/           # Statistical Analysis
+│   ├── DiaryBiome_Analysis.Rmd    # Main analysis workflow (R Markdown)
+│   ├── DiaryBiome_Analysis.html   # Rendered analysis report
+│   ├── config.yaml                # Analysis configuration
+│   ├── environment.yml            # Conda environment for analysis
+│   ├── SraRunTable.csv            # SRA metadata
+│   └── README.md                  # Analysis documentation
+├── DiaryBiome.png                 # Project logo
+├── .gitignore                     # Git ignore rules
+└── README.md                      # This file
 ```
 
 ## Quick Start

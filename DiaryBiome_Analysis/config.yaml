@@ -3,8 +3,9 @@
 
 # Input files
 input:
-  abundance_file: "/Users/dshipilina/GitHub/DiaryBiome/DiaryBiome_Preprocess/demo_output/results/combined_abundance_table.tsv"
-  metadata_file: "/Users/dshipilina/GitHub/DiaryBiome/DiaryBiome_Preprocess/DiaryBiome_Analysis/SraRunTable.csv"
+  abundance_file: "../DiaryBiome_Preprocess/demo_output/results/combined_abundance_table.tsv"
+  metadata_file: "SraRunTable.csv"
+
 
 # Filtering parameters
 filtering:

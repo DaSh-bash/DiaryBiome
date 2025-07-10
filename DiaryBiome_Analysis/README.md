@@ -4,7 +4,7 @@ This repository contains a downstream analysis workflow for metagenomic data on 
 
 Before continuing with downstream analysis quality of preprocessing needs to be evaluated: 
 
-**📊 MultiQC Report**: [View the complete MultiQC quality assessment report](../DiaryBiome_Preprocess/demo_output/results/multiqc_report/multiqc_report.html)
+**📊 MultiQC Report**: View the complete MultiQC quality assessment report: DiaryBiome_Preprocess/demo_output/results/multiqc_report/multiqc_report.html
 
 ## Files
 
