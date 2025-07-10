@@ -6,7 +6,6 @@ input:
   abundance_file: "../DiaryBiome_Preprocess/demo_output/results/combined_abundance_table.tsv"
   metadata_file: "SraRunTable.csv"
 
-
 # Filtering parameters
 filtering:
   min_reads: 10  
